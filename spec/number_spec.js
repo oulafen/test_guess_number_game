@@ -15,10 +15,9 @@ describe("Random Number", function () {
 
         get_random_number();
         var random_num = localStorage.random_number;
-        console.log(random_num);
         var is_a_num = judge_is_a_num(random_num);
-        expect(is_a_num).toBe(true);
 
+        expect(is_a_num).toBe(true);
     });
 
     it("should be 4 digits", function () {
@@ -28,7 +27,6 @@ describe("Random Number", function () {
         var number_digits = judge_number_digits(random_number);
 
         expect(number_digits).toBe(4);
-
     });
 
     it("should be different digits", function () {
@@ -38,7 +36,5 @@ describe("Random Number", function () {
         var number_not_repeat_judge = judge_number_not_repeat(random_number);
 
         expect(number_not_repeat_judge).toBe(1);
-
     });
-
 });
