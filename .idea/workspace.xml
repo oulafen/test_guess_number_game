@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfecd79-bdbe-4a5d-a1ea-e5263abd3f28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/button_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integrate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integrate_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/result_reder_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/result_render.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GuessNumberPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestGuessNumberPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/number_processing.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/compare_result_spec.js" afterPath="$PROJECT_DIR$/spec/compare_spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/button_processing.js" afterPath="$PROJECT_DIR$/src/button.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/compare_result.js" afterPath="$PROJECT_DIR$/src/compare.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/number_judge.js" afterPath="$PROJECT_DIR$/src/number.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/button_processing.js" afterPath="$PROJECT_DIR$/src/button_processing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/number_processing.js" afterPath="$PROJECT_DIR$/src/number_processing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/number_spec.js" afterPath="$PROJECT_DIR$/spec/number_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ttd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,16 +37,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="guess_result_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/guess_result_spec.js">
+      <file leaf-file-name="integrate_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/integrate_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="874">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/button_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_reder_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/result_reder_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_render.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/result_render.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.747541" vertical-offset="0" max-vertical-offset="610">
               <folding>
-                <element signature="e#63#137#0" expanded="true" />
-                <element signature="e#163#237#0" expanded="true" />
-                <element signature="e#309#489#0" expanded="true" />
-                <element signature="e#562#744#0" expanded="true" />
-                <element signature="e#815#987#0" expanded="true" />
+                <element signature="e#306#420#0" expanded="true" />
+                <element signature="e#536#625#0" expanded="true" />
+                <element signature="e#740#813#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compare_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="49" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1577">
+              <folding>
+                <element signature="e#110#151#0" expanded="true" />
+                <element signature="e#179#220#0" expanded="true" />
+                <element signature="e#290#462#0" expanded="true" />
+                <element signature="e#548#720#0" expanded="true" />
+                <element signature="e#806#977#0" expanded="true" />
+                <element signature="e#1063#1234#0" expanded="true" />
+                <element signature="e#1320#1491#0" expanded="true" />
+                <element signature="e#1576#1748#0" expanded="true" />
+                <element signature="e#1833#2005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,30 +99,28 @@
       <file leaf-file-name="number_spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/number_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="29" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1140">
+            <state line="48" column="32" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1482">
               <folding>
+                <element signature="e#79#992#0" expanded="true" />
                 <element signature="e#109#194#0" expanded="true" />
                 <element signature="e#224#271#0" expanded="true" />
-                <element signature="e#316#587#0" expanded="true" />
-                <element signature="e#996#1518#0" expanded="true" />
-                <element signature="e#1023#1064#0" expanded="true" />
-                <element signature="e#1093#1134#0" expanded="true" />
-                <element signature="e#1188#1513#0" expanded="true" />
+                <element signature="e#1061#1102#0" expanded="true" />
+                <element signature="e#1131#1172#0" expanded="true" />
+                <element signature="e#1474#1672#0" expanded="true" />
+                <element signature="e#1725#1947#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="number_processing.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/number_processing.js">
+      <file leaf-file-name="compare.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compare.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="460" selection-end="460" vertical-scroll-proportion="0.38190955" vertical-offset="0" max-vertical-offset="1007">
+            <state line="25" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
               <folding>
-                <element signature="n#!!block;n#get_random_number#0" expanded="true" />
-                <element signature="n#!!block;n#get_four_digits#0" expanded="true" />
                 <element signature="n#!!block;n#compare_r_num_and_g_num#0" expanded="true" />
-                <element signature="e#1007#1161#0" expanded="true" />
-                <element signature="e#1061#1154#0" expanded="true" />
+                <element signature="e#334#488#0" expanded="true" />
+                <element signature="e#388#481#0" expanded="true" />
                 <element signature="n#!!block;n#get_compare_result#0" expanded="true" />
               </folding>
             </state>
@@ -80,16 +130,25 @@
       <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="6" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-14.678572" vertical-offset="729" max-vertical-offset="1311">
+            <state line="25" column="0" selection-start="1166" selection-end="1166" vertical-scroll-proportion="-10.857142" vertical-offset="171" max-vertical-offset="1406">
               <folding>
-                <element signature="e#1268#1945#0" expanded="true" />
+                <element signature="e#1447#2124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="button_processing.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/button_processing.js">
+      <file leaf-file-name="integrate.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integrate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/button.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="1" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
               <folding>
@@ -129,18 +188,25 @@
         <option value="$PROJECT_DIR$/spec/compare_rnum_and_gnum_spec.js" />
         <option value="$PROJECT_DIR$/spec/guess_process_spec.js" />
         <option value="$PROJECT_DIR$/spec/random_number_spec.js" />
-        <option value="$PROJECT_DIR$/spec/button_spec.js" />
         <option value="$PROJECT_DIR$/spec/result_render_spec.js" />
         <option value="$PROJECT_DIR$/src/result_show.js" />
-        <option value="$PROJECT_DIR$/spec/number_spec.js" />
         <option value="$PROJECT_DIR$/spec/guess_result_spec.js" />
         <option value="$PROJECT_DIR$/src/number_judge.js" />
         <option value="$PROJECT_DIR$/spec/compare_result_spec.js" />
-        <option value="$PROJECT_DIR$/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/src/number_processing.js" />
         <option value="$PROJECT_DIR$/src/button_processing.js" />
         <option value="$PROJECT_DIR$/TestGuessNumberPage.html" />
         <option value="$PROJECT_DIR$/GuessNumberPage.html" />
+        <option value="$PROJECT_DIR$/src/number.js" />
+        <option value="$PROJECT_DIR$/src/number_processing.js" />
+        <option value="$PROJECT_DIR$/src/compare_result.js" />
+        <option value="$PROJECT_DIR$/spec/number_spec.js" />
+        <option value="$PROJECT_DIR$/spec/button_spec.js" />
+        <option value="$PROJECT_DIR$/spec/result_reder_spec.js" />
+        <option value="$PROJECT_DIR$/src/compare.js" />
+        <option value="$PROJECT_DIR$/src/result_render.js" />
+        <option value="$PROJECT_DIR$/spec/integrate_spec.js" />
+        <option value="$PROJECT_DIR$/src/integrate.js" />
+        <option value="$PROJECT_DIR$/SpecRunner.html" />
       </list>
     </option>
   </component>
@@ -325,7 +391,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -377,33 +443,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/number_processing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="760">
-          <folding>
-            <element signature="n#!!block;n#get_random_number#0" expanded="true" />
-            <element signature="n#!!block;n#get_four_digits#0" expanded="true" />
-            <element signature="n#!!block;n#compare_r_num_and_g_num#0" expanded="true" />
-            <element signature="e#1007#1161#0" expanded="true" />
-            <element signature="e#1061#1154#0" expanded="true" />
-            <element signature="n#!!block;n#get_compare_result#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number_judge.js">
+    <entry file="file://$PROJECT_DIR$/src/number.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="31" selection-start="827" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="760">
           <folding>
-            <element signature="n#!!block;n#judge_is_a_num#0" expanded="true" />
             <element signature="n#!!block;n#judge_number_not_repeat#0" expanded="true" />
             <element signature="n#!!block;n#judge_number_digits#0" expanded="true" />
             <element signature="n#!!block;n#judge_number#0" expanded="true" />
+            <element signature="n#!!block;n#get_random_number#0" expanded="true" />
+            <element signature="n#!!block;n#get_four_digits#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/button_processing.js">
+    <entry file="file://$PROJECT_DIR$/src/button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="25" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1178">
           <folding>
@@ -431,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/compare_result_spec.js">
+    <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1121">
           <folding>
@@ -452,13 +505,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1045">
           <folding>
+            <element signature="e#79#992#0" expanded="true" />
             <element signature="e#109#194#0" expanded="true" />
             <element signature="e#224#271#0" expanded="true" />
-            <element signature="e#316#587#0" expanded="true" />
-            <element signature="e#996#1518#0" expanded="true" />
-            <element signature="e#1023#1064#0" expanded="true" />
-            <element signature="e#1093#1134#0" expanded="true" />
-            <element signature="e#1188#1513#0" expanded="true" />
+            <element signature="e#1061#1102#0" expanded="true" />
+            <element signature="e#1131#1172#0" expanded="true" />
+            <element signature="e#1474#1672#0" expanded="true" />
+            <element signature="e#1725#1947#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,19 +520,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1254">
           <folding>
-            <element signature="e#1268#1945#0" expanded="true" />
+            <element signature="e#1447#2124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compare_result.js">
+    <entry file="file://$PROJECT_DIR$/src/compare.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="29" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="589">
           <folding>
-            <element signature="n#!!block;n#result_render#0" expanded="true" />
-            <element signature="e#265#379#0" expanded="true" />
-            <element signature="e#495#584#0" expanded="true" />
-            <element signature="e#699#772#0" expanded="true" />
+            <element signature="n#!!block;n#compare_r_num_and_g_num#0" expanded="true" />
+            <element signature="e#334#488#0" expanded="true" />
+            <element signature="e#388#481#0" expanded="true" />
+            <element signature="n#!!block;n#get_compare_result#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -497,7 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/compare_result_spec.js">
+    <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="988">
           <folding>
@@ -527,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/compare_result_spec.js">
+    <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="988">
           <folding>
@@ -562,7 +615,7 @@
         <state line="15" column="38" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="836" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/compare_result_spec.js">
+    <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
           <folding>
@@ -592,7 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/compare_result_spec.js">
+    <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
           <folding>
@@ -624,30 +677,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compare_result.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.77868855" vertical-offset="0" max-vertical-offset="610">
-          <folding>
-            <element signature="n#!!block;n#result_render#0" expanded="true" />
-            <element signature="e#265#379#0" expanded="true" />
-            <element signature="e#495#584#0" expanded="true" />
-            <element signature="e#699#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/number_judge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="n#!!block;n#judge_is_a_num#0" expanded="true" />
-            <element signature="n#!!block;n#judge_number_not_repeat#0" expanded="true" />
-            <element signature="n#!!block;n#judge_number_digits#0" expanded="true" />
-            <element signature="n#!!block;n#judge_number#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/无标题文档">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
@@ -655,61 +684,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/compare_result_spec.js">
+    <entry file="file://$PROJECT_DIR$/src/number.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="49" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.96885246" vertical-offset="663" max-vertical-offset="1577">
+        <state line="1" column="16" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
           <folding>
-            <element signature="e#110#151#0" expanded="true" />
-            <element signature="e#179#220#0" expanded="true" />
-            <element signature="e#290#462#0" expanded="true" />
-            <element signature="e#548#720#0" expanded="true" />
-            <element signature="e#806#977#0" expanded="true" />
-            <element signature="e#1063#1234#0" expanded="true" />
-            <element signature="e#1320#1491#0" expanded="true" />
-            <element signature="e#1576#1748#0" expanded="true" />
-            <element signature="e#1833#2005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/guess_result_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="874">
-          <folding>
-            <element signature="e#63#137#0" expanded="true" />
-            <element signature="e#163#237#0" expanded="true" />
-            <element signature="e#309#489#0" expanded="true" />
-            <element signature="e#562#744#0" expanded="true" />
-            <element signature="e#815#987#0" expanded="true" />
+            <element signature="n#!!block;n#judge_number_not_repeat#0" expanded="true" />
+            <element signature="n#!!block;n#judge_number_digits#0" expanded="true" />
+            <element signature="n#!!block;n#judge_number#0" expanded="true" />
+            <element signature="n#!!block;n#get_random_number#0" expanded="true" />
+            <element signature="n#!!block;n#get_four_digits#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/number_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1140">
+        <state line="48" column="32" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1482">
           <folding>
+            <element signature="e#79#992#0" expanded="true" />
             <element signature="e#109#194#0" expanded="true" />
             <element signature="e#224#271#0" expanded="true" />
-            <element signature="e#316#587#0" expanded="true" />
-            <element signature="e#996#1518#0" expanded="true" />
-            <element signature="e#1023#1064#0" expanded="true" />
-            <element signature="e#1093#1134#0" expanded="true" />
-            <element signature="e#1188#1513#0" expanded="true" />
+            <element signature="e#1061#1102#0" expanded="true" />
+            <element signature="e#1131#1172#0" expanded="true" />
+            <element signature="e#1474#1672#0" expanded="true" />
+            <element signature="e#1725#1947#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="6" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-14.678572" vertical-offset="729" max-vertical-offset="1311">
-          <folding>
-            <element signature="e#1268#1945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/button_processing.js">
+    <entry file="file://$PROJECT_DIR$/src/button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="1" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
           <folding>
@@ -724,16 +727,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/number_processing.js">
+    <entry file="file://$PROJECT_DIR$/spec/button_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="460" selection-end="460" vertical-scroll-proportion="0.38190955" vertical-offset="0" max-vertical-offset="1007">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/result_reder_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
           <folding>
-            <element signature="n#!!block;n#get_random_number#0" expanded="true" />
-            <element signature="n#!!block;n#get_four_digits#0" expanded="true" />
             <element signature="n#!!block;n#compare_r_num_and_g_num#0" expanded="true" />
-            <element signature="e#1007#1161#0" expanded="true" />
-            <element signature="e#1061#1154#0" expanded="true" />
+            <element signature="e#334#488#0" expanded="true" />
+            <element signature="e#388#481#0" expanded="true" />
             <element signature="n#!!block;n#get_compare_result#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integrate_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/guess_result_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <folding>
+            <element signature="e#63#137#0" expanded="true" />
+            <element signature="e#163#237#0" expanded="true" />
+            <element signature="e#309#489#0" expanded="true" />
+            <element signature="e#562#744#0" expanded="true" />
+            <element signature="e#815#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/compare_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="49" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1577">
+          <folding>
+            <element signature="e#110#151#0" expanded="true" />
+            <element signature="e#179#220#0" expanded="true" />
+            <element signature="e#290#462#0" expanded="true" />
+            <element signature="e#548#720#0" expanded="true" />
+            <element signature="e#806#977#0" expanded="true" />
+            <element signature="e#1063#1234#0" expanded="true" />
+            <element signature="e#1320#1491#0" expanded="true" />
+            <element signature="e#1576#1748#0" expanded="true" />
+            <element signature="e#1833#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integrate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1166" selection-end="1166" vertical-scroll-proportion="-10.857142" vertical-offset="171" max-vertical-offset="1406">
+          <folding>
+            <element signature="e#1447#2124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/result_render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.747541" vertical-offset="0" max-vertical-offset="610">
+          <folding>
+            <element signature="e#306#420#0" expanded="true" />
+            <element signature="e#536#625#0" expanded="true" />
+            <element signature="e#740#813#0" expanded="true" />
           </folding>
         </state>
       </provider>

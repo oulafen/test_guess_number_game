@@ -33,3 +33,25 @@ function judge_number(num) {
     }
     return 'legal_input';
 }
+
+
+function get_random_number() {
+    while (1) {
+        var a = Math.floor(Math.random() * 10);
+        var b = Math.floor(Math.random() * 10);
+        var c = Math.floor(Math.random() * 10);
+        var d = Math.floor(Math.random() * 10);
+        if (a != b & b != c & c != d & a != c & a != d & b != d) {
+            localStorage.random_number = d != 0 ? (a + b * 10 + c * 100 + d * 1000) : '0' + (a + b * 10 + c * 100);
+            return;
+        }
+    }
+}
+
+function get_four_digits(num) {
+    var a = Math.floor(num) % 10;
+    var b = Math.floor(num / 10) % 10;
+    var c = Math.floor(num / 100) % 10;
+    var d = Math.floor(num / 1000) % 10;
+    return [d,c,b,a];
+}

@@ -11,26 +11,26 @@ describe("Guess Number", function () {
         localStorage.guess_number = '';
     })
 
-    it("should be a number ", function () {
+//    it("should be a number ", function () {
+//
+//        var guess_number = JSON.parse(localStorage.guess_number);
+//        var is_a_num = judge_is_a_num(guess_number[0]);
+//        var is_not_a_num = !judge_is_a_num(guess_number[1]);
+//
+//        expect(is_a_num).toBe(true);
+//        expect(is_not_a_num).toBe(true);
+//
+//    });
 
-        var guess_number = JSON.parse(localStorage.guess_number);
-        var is_a_num = judge_is_a_num(guess_number[0]);
-        var is_not_a_num = !judge_is_a_num(guess_number[1]);
-
-        expect(is_a_num).toBe(true);
-        expect(is_not_a_num).toBe(true);
-
-    });
-
-    it("should be 4 diffrent digits", function () {
-
-        var guess_number = JSON.parse(localStorage.guess_number);
-        var number_not_repeat_judge = judge_number_not_repeat(guess_number[2]);
-        var number_digits = judge_number_digits(guess_number[0]);
-
-        expect(number_not_repeat_judge).toBe(0);
-        expect(number_digits).toBe(4);
-    });
+//    it("should be 4 diffrent digits", function () {
+//
+//        var guess_number = JSON.parse(localStorage.guess_number);
+//        var number_not_repeat_judge = judge_number_not_repeat(guess_number[2]);
+//        var number_digits = judge_number_digits(guess_number[0]);
+//
+//        expect(number_not_repeat_judge).toBe(0);
+//        expect(number_digits).toBe(4);
+//    });
 });
 
 describe("Random Number", function () {
@@ -42,14 +42,32 @@ describe("Random Number", function () {
         localStorage.random = '';
     })
 
-    it("should be 4 different digits", function () {
+    it("should be a number ", function () {
+
+        get_random_number();
+        var random_num = localStorage.random_number;
+        console.log(random_num);
+        var is_a_num = judge_is_a_num(random_num);
+        expect(is_a_num).toBe(true);
+
+    });
+
+    it("should be 4 digits", function () {
 
         get_random_number();
         var random_number = localStorage.random_number;
         var number_digits = judge_number_digits(random_number);
-        var number_not_repeat_judge = judge_number_not_repeat(random_number);
 
         expect(number_digits).toBe(4);
+
+    });
+
+    it("should be different digits", function () {
+
+        get_random_number();
+        var random_number = localStorage.random_number;
+        var number_not_repeat_judge = judge_number_not_repeat(random_number);
+
         expect(number_not_repeat_judge).toBe(1);
 
     });

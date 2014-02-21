@@ -1,4 +1,6 @@
-
+/**
+ * Created by xiaofen on 14-2-21.
+ */
 function result_render(){
     var result=localStorage.result;
     var times=localStorage.times;
