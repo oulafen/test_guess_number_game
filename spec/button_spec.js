@@ -25,6 +25,12 @@ describe('Confirm Button',function(){
         expect(times2-times1).toBe(1);
     });
 
+    it('should clear the input',function(){
+        process_guess_num();
+        var input=document.getElementById('input_guess').value;
+
+        expect(input).toBe('');
+    });
 });
 
 describe('Restart Button',function(){
@@ -55,13 +61,6 @@ describe('Restart Button',function(){
         var times=localStorage.times;
 
         expect(times).toBe('');
-    });
-
-    it('should clear input',function(){
-        restart();
-        var input=document.getElementById('input_guess').value;
-
-        expect(input).toBe('');
     });
 
     it('should create a new random_number',function(){

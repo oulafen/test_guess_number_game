@@ -33,7 +33,7 @@ function restart() {
     localStorage.times = '';
     $(document).ready(function () {
         $('div#result_show').empty();
-        $('input#input_guess').focus().val('');
+        $('input#input_guess').focus();
     });
     get_random_number();
 }
