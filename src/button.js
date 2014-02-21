@@ -37,5 +37,4 @@ function restart() {
     });
     get_random_number();
 }
-restart();
 
