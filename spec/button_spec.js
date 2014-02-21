@@ -3,7 +3,8 @@
  */
 describe('Confirm Button',function(){
    beforeEach(function(){
-       document.getElementById('input_guess').value= 1234;
+       document.getElementById('input_guess').value = 1234;
+       process_guess_num();
 
    });
     afterEach(function(){
@@ -11,7 +12,6 @@ describe('Confirm Button',function(){
     });
 
     it('should let input_number store into guess_number ',function(){
-        process_guess_num();
         var guess_num=localStorage.guess_number;
 
         expect(guess_num).toBe('1234');
@@ -19,6 +19,7 @@ describe('Confirm Button',function(){
 
     it('should let times add 1',function(){
         var times1 = localStorage.times.length;
+        document.getElementById('input_guess').value=2345;
         process_guess_num();
         var times2 = localStorage.times.length;
 
@@ -26,7 +27,6 @@ describe('Confirm Button',function(){
     });
 
     it('should clear the input',function(){
-        process_guess_num();
         var input=document.getElementById('input_guess').value;
 
         expect(input).toBe('');
@@ -37,7 +37,6 @@ describe('Restart Button',function(){
     beforeEach(function(){
         document.getElementById('input_guess').value= 1234;
         process_guess_num();
-
     });
 
     it('should clear guess_number',function(){

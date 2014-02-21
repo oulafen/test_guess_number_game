@@ -10,25 +10,25 @@ describe('Result Render',function(){
         restart();
     });
 
-    it('should let input_number store into guess_number ',function(){
-        process_guess_num();
-        var guess_num=localStorage.guess_number;
+//    it('should let input_number store into guess_number ',function(){
+//        var guess_num=localStorage.guess_number;
+//
+//        expect(guess_num).toBe('1234');
+//    });
 
-        expect(guess_num).toBe('1234');
-    });
+//    it('should let times add 1',function(){
+//        var times1 = localStorage.times.length;
+//        document.getElementById('input_guess').value= 2345;
+//        process_guess_num();
+//        var times2 = localStorage.times.length;
+//
+//        expect(times2-times1).toBe(1);
+//    });
 
-    it('should let times add 1',function(){
-        var times1 = localStorage.times.length;
-        process_guess_num();
-        var times2 = localStorage.times.length;
-
-        expect(times2-times1).toBe(1);
-    });
-
-    it('should clear the input',function(){
-        process_guess_num();
-        var input=document.getElementById('input_guess').value;
-
-        expect(input).toBe('');
-    });
+//    it('should clear the input',function(){
+////        process_guess_num();
+//        var input=document.getElementById('input_guess').value;
+//
+//        expect(input).toBe('');
+//    });
 });
