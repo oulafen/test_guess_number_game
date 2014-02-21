@@ -22,5 +22,14 @@ function judge_number(num) {
     var digits = judge_number_digits(num);
     var not_repeat = judge_number_not_repeat(num);
     var is_num = judge_is_a_num(num);
-    return digits == 4 & is_num == true & not_repeat == true;
+    if(digits!=4){
+        return 'illegal_digits';
+    }
+    if(!is_num){
+        return 'illegal_num';
+    }
+    if(!not_repeat){
+        return 'illegal_repeat';
+    }
+    return 'legal_input';
 }

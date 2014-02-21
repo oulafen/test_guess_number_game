@@ -1,3 +1,15 @@
+input_judge_map = {
+    'illegal_digits': function () {
+        alert('请输入四位数字');
+    },
+    'illegal_num': function () {
+        alert('请输入数字');
+    },
+    'illegal_repeat': function () {
+        alert('请勿有重复数字');
+    }
+}
+
 function get_random_number() {
     while (1) {
         var a = Math.floor(Math.random() * 10);
@@ -12,19 +24,22 @@ function get_random_number() {
 }
 
 function process_guess_num() {
-    var random_num = localStorage.random_number;
     var input = document.getElementById('input_guess').value;
-    if (random_num == '') {
+    var input_judge = judge_number(input);
+    if (localStorage.random_number == '') {
         alert('请先产生随机数');
-    } else if (judge_number(input)) {
+        return;
+    }
+    if (input_judge == 'legal_input') {
         localStorage.times += 1;
         localStorage.guess_number = input;
-        console.log(localStorage.guess_number)
-        compare_r_num_and_g_num(random_num, input);
+        compare_r_num_and_g_num(localStorage.random_number, input);
         result_render();
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('input#input_guess').focus().val('');
         });
+    } else {
+        input_judge_map[input_judge]();
     }
 }
 
