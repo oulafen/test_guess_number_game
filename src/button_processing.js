@@ -10,26 +10,9 @@ input_judge_map = {
     }
 }
 
-function get_random_number() {
-    while (1) {
-        var a = Math.floor(Math.random() * 10);
-        var b = Math.floor(Math.random() * 10);
-        var c = Math.floor(Math.random() * 10);
-        var d = Math.floor(Math.random() * 10);
-        if (a != b & b != c & c != d & a != c & a != d & b != d) {
-            localStorage.random_number = d != 0 ? (a + b * 10 + c * 100 + d * 1000) : '0' + (a + b * 10 + c * 100);
-            return;
-        }
-    }
-}
-
 function process_guess_num() {
     var input = document.getElementById('input_guess').value;
     var input_judge = judge_number(input);
-    if (localStorage.random_number == '') {
-        alert('请先产生随机数');
-        return;
-    }
     if (input_judge == 'legal_input') {
         localStorage.times += 1;
         localStorage.guess_number = input;
@@ -52,6 +35,7 @@ function restart() {
         $('div#result_show').empty();
         $('input#input_guess').focus().val('');
     });
+    get_random_number();
 }
 restart();
-get_random_number();
+
