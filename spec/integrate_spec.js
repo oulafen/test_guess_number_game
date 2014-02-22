@@ -23,10 +23,11 @@ describe('Integrate Result', function () {
         expect(times).toBe(4);
     });
 
-    it("page should show '猜测1次 1234 1A0B' when random_num=1234 and guess_num=1567",function(){
+    it("page should show '猜错1次 1234 1A0B' when random_num=1234 and guess_num=1567",function(){
         document.getElementById('input_guess').value =1567;
         localStorage.random_number=1234;
         process_guess_num();
+
 
 
     })
