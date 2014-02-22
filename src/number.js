@@ -21,7 +21,7 @@ function judge_number(num) {
 }
 
 function judge_num_is_random() {
-    var num_arr = [], same_num = [], judge_result;
+    var num_arr = [], same_num = [];
     for (var i = 0; i < 1000; i++) {
         get_random_number();
         num_arr.push(localStorage.random_number);
@@ -32,10 +32,9 @@ function judge_num_is_random() {
         })
         same_num.push(same);
     }
-    _.each(same_num, function (same) {
-        judge_result = same.length < 10 ? true : false;
+    return !_.find(same_num, function (same) {
+        return same.length > 10;
     })
-    return judge_result;
 }
 
 function get_random_number() {
