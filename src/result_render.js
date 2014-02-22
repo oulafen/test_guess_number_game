@@ -26,3 +26,4 @@ function result_render(){
     }
 
 }
+//judge_num_is_random()

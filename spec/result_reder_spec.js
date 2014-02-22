@@ -4,7 +4,6 @@
 describe('Result Render', function () {
     beforeEach(function () {
         localStorage.random_number = 1243;
-//        process_guess_num();
     });
     afterEach(function () {
         restart();

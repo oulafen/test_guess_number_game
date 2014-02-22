@@ -15,7 +15,7 @@ describe("Random Number", function () {
 
         get_random_number();
         var random_num = localStorage.random_number;
-        var is_a_num = judge_is_a_num(random_num);
+        var is_a_num = !isNaN(random_num);
 
         expect(is_a_num).toBe(true);
     });
@@ -24,7 +24,7 @@ describe("Random Number", function () {
 
         get_random_number();
         var random_number = localStorage.random_number;
-        var number_digits = judge_number_digits(random_number);
+        var number_digits = random_number.length;
 
         expect(number_digits).toBe(4);
     });
@@ -36,5 +36,14 @@ describe("Random Number", function () {
         var number_not_repeat_judge = judge_number_not_repeat(random_number);
 
         expect(number_not_repeat_judge).toBe(1);
+    });
+
+    it("should be random", function () {
+
+//        get_random_number();
+//        var random_number = localStorage.random_number;
+        var random_judge = judge_num_is_random();
+
+        expect(random_judge).toBe(true);
     });
 });
